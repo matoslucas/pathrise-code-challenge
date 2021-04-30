@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+body {
+  background-color: #f7f6fa;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.MuiIconButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(56, 55, 55, 0.753) !important;
+}
+.MuiIconButton-root {
+  color: #fff !important;
+}
+.show {
+  display: block;
+  visibility: visible;
+}
+.hide {
+  display: none;
+  visibility: hidden;
+}
+.MuiAvatar-root {
+  background-color: #fff;
+}
+.MuiAvatar-img {
+  object-fit: fill !important;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 2rem 0;
+  width: 320px;
+  align-items: center;
+}
+
+.fairy-wand {
+  position: absolute;
+  height: 74px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='far' data-icon='star' style='transform: rotate(%0A45deg%0A) scale(0.5);' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 572 1400'%3E%3Cline x1='288' y1='420' x2='288' y2='1200' stroke-linecap='round' style='stroke:%23a19eb0;stroke-width:60' /%3E%3Cpath fill='%23a19eb0' d='M528.1 171.5L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6zM388.6 312.3l23.7 138.4L288 385.4l-124.3 65.3 23.7-138.4-100.6-98 139-20.2 62.2-126 62.2 126 139 20.2-100.6 98z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+header span {
+  color: #b0a8c0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+}
+
+.title {
+  color: #4e3c71;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1rem 0 0.5rem 0;
+}
+.add-button {
+  background-color: #fff !important;
+  width: 100%;
+  font-size: 2rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: 2rem !important;
+  font-family: "Nunito", sans-serif !important;
+  color: #a19eb0 !important;
+}
+.dialog-box {
+  width: 360px;
+  height: 288px;
+  display: flex;
+  justify-content: center;
+}
+.MuiDialogTitle-root {
+  display: flex;
+  justify-content: center;
+}
+.MuiInputBase-input {
+  height: 3rem !important;
+  box-sizing: border-box !important;
+}
+
+.search-icon {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: border-box;
+  background-image: url(./images/search.svg);
+}
+.suitcase-icon {
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: border-box;
+  background-image: url(./images/suitcase.svg);
+}
